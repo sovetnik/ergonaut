@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - '['
+  - {t: '[', h: Gui}
   - {t: '`', h: Ctrl}
   - A
   - S
