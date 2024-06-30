@@ -43,19 +43,19 @@ layers:
   - {t: ⌫, h: Shift}
   - {t: ⌦, h: raise}
   lower:
-  - {t: F1, h: Gui}
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
-  - {t: +, h: Ctrl}
+  - Gui
+  - '&m_elmap'
+  - '&m_la'
+  - '&m_ra'
+  - '-'
+  - _
+  - +
+  - '='
+  - '&m_le'
+  - '&m_me'
+  - '&m_inspect'
+  - Gui
+  - Ctrl
   - '!'
   - '@'
   - '#'
@@ -66,7 +66,7 @@ layers:
   - '*'
   - (
   - )
-  - {t: '-', h: Ctrl}
+  - Ctrl
   - {t: '=', h: Alt}
   - '1'
   - '2'
@@ -78,7 +78,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - Alt
+  - '&m_pipe'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -86,41 +86,41 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
-  - {t: KP NUM, h: Gui}
-  - KP SLASH
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MINUS
-  - Vol Up
-  - Home
-  - Print Scrn
-  - Page Up
-  - SLCK
-  - CLCK
-  - {t: '=', h: Ctrl}
-  - KP MULTIPLY
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
-  - MUTE
+  - {t: F1, h: Gui}
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - {t: F12, h: Gui}
+  - Ctrl
+  - +
   - ←
   - ↑
   - →
-  - Insert
-  - {t: APP, h: Ctrl}
-  - Alt
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP DOT
+  - PAGE UP
+  - BRI UP
+  - Vol Up
+  - MUTE
   - Vol Down
-  - End
+  - '-'
+  - Ctrl
+  - Alt
+  - '='
+  - Home
   - ↓
-  - Page Down
-  - Pause Break
+  - End
+  - PAGE DOWN
+  - BRI DN
+  - ⏮️
+  - PLAY PAUSE
+  - ⏭️
+  - _
   - Alt
   - {type: held}
   - {t: ▽, type: trans}
