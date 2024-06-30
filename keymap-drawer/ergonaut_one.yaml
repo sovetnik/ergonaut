@@ -41,7 +41,7 @@ layers:
   - {t: ⏎, h: lower}
   - {t: Esc, h: lower}
   - {t: ⌫, h: Shift}
-  - {t: GLOBE, h: raise}
+  - {t: DELETE, h: raise}
   lower:
   - Gui
   - '&m_elmap'
