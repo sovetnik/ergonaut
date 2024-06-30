@@ -22,28 +22,28 @@
     };
 
     macros {
-        m_pipe: pipe {
+        m_elpipe: m_elpipe {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp PIPE &kp GT &kp SPACE>;
-            label = " |>";
+            label = "M_ELPIPE";
         };
 
-        m_inspect: m_inspect {
+        m_insl: m_insl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp I &kp N &kp S &kp L &kp TAB>;
-            label = "M_INSPECT";
+            bindings = <&kp I &kp N &kp S &kp L>;
+            label = "M_INSL";
         };
 
-        m_le: m_le {
+        m_leq: m_leq {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp SPACE &kp LT &kp EQUAL &kp SPACE>;
             label = "Less Equal";
         };
 
-        m_me: m_me {
+        m_req: m_req {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp SPACE &kp EQUAL &kp GT &kp SPACE>;
@@ -57,14 +57,14 @@
             label = "Elixir map";
         };
 
-        m_la: m_la {
+        m_ldsh: m_ldsh {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp SPACE &kp LT &kp MINUS &kp SPACE>;
             label = "Left Arrow";
         };
 
-        m_ra: m_ra {
+        m_rdsh: m_rdsh {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp SPACE &kp MINUS &kp GT &kp SPACE>;
@@ -77,19 +77,19 @@
 
         default_layer {
             bindings = <
-&mt LGUI RBKT    &kp Q  &kp W  &kp E        &kp R            &kp T        &kp Y        &kp U           &kp I        &kp O    &kp P     &mt RGUI LBKT
-&mt LCTRL GRAVE  &kp A  &kp S  &kp D        &kp F            &kp G        &kp H        &kp J           &kp K        &kp L    &kp SEMI  &mt RCTRL SQT
-&mt LALT MINUS   &kp Z  &kp X  &kp C        &kp V            &kp B        &kp N        &kp M           &kp COMMA    &kp DOT  &kp FSLH  &mt RALT BSLH
-                               &lt RSE TAB  &mt LSHFT SPACE  &lt LWR RET  &lt LWR ESC  &mt RSHFT BSPC  &lt RSE DEL
+&mt LGUI RBKT    &kp Q  &kp W  &kp E        &kp R            &kp T        &kp Y        &kp U           &kp I          &kp O    &kp P     &mt RGUI LBKT
+&mt LCTRL GRAVE  &kp A  &kp S  &kp D        &kp F            &kp G        &kp H        &kp J           &kp K          &kp L    &kp SEMI  &mt RCTRL SQT
+&mt LALT MINUS   &kp Z  &kp X  &kp C        &kp V            &kp B        &kp N        &kp M           &kp COMMA      &kp DOT  &kp FSLH  &mt RALT BSLH
+                               &lt RSE TAB  &mt LSHFT SPACE  &lt LWR RET  &lt LWR ESC  &mt RSHFT BSPC  &lt RSE GLOBE
             >;
         };
 
         lower_layer {
             bindings = <
-&kp LGUI        &m_elmap  &m_la   &m_ra     &kp MINUS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL  &m_le     &m_me     &m_inspect  &kp RGUI
-&kp LCTRL       &kp EXCL  &kp AT  &kp HASH  &kp DLLR   &kp PRCNT         &kp CARET          &kp AMPS   &kp STAR  &kp LPAR  &kp RPAR    &kp RCTRL
-&mt LALT EQUAL  &kp N1    &kp N2  &kp N3    &kp N4     &kp N5            &kp N6             &kp N7     &kp N8    &kp N9    &kp N0      &m_pipe
-                                  &trans    &trans     &trans            &trans             &trans     &trans
+&kp LGUI        &m_elmap  &m_ldsh  &kp MINUS  &m_rdsh   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &m_leq    &kp EQUAL  &m_req    &m_insl   &kp RGUI
+&kp LCTRL       &kp EXCL  &kp AT   &kp HASH   &kp DLLR  &kp PRCNT         &kp CARET          &kp AMPS  &kp STAR   &kp LPAR  &kp RPAR  &kp RCTRL
+&mt LALT EQUAL  &kp N1    &kp N2   &kp N3     &kp N4    &kp N5            &kp N6             &kp N7    &kp N8     &kp N9    &kp N0    &m_elpipe
+                                   &trans     &trans    &trans            &trans             &trans    &trans
             >;
         };
 

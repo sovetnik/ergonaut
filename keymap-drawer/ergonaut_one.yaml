@@ -41,19 +41,19 @@ layers:
   - {t: ⏎, h: lower}
   - {t: Esc, h: lower}
   - {t: ⌫, h: Shift}
-  - {t: ⌦, h: raise}
+  - {t: GLOBE, h: raise}
   lower:
   - Gui
   - '&m_elmap'
-  - '&m_la'
-  - '&m_ra'
+  - '&m_ldsh'
   - '-'
+  - '&m_rdsh'
   - '['
   - ']'
+  - '&m_leq'
   - '='
-  - '&m_le'
-  - '&m_me'
-  - '&m_inspect'
+  - '&m_req'
+  - '&m_insl'
   - Gui
   - Ctrl
   - '!'
@@ -78,7 +78,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - '&m_pipe'
+  - '&m_elpipe'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
