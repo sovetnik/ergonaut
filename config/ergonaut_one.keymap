@@ -86,10 +86,10 @@
 
         lower_layer {
             bindings = <
-&kp LGUI        &m_elmap  &m_ldsh  &kp MINUS  &m_rdsh   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &m_leq    &kp EQUAL  &m_req    &m_insl   &kp RGUI
-&kp LCTRL       &kp EXCL  &kp AT   &kp HASH   &kp DLLR  &kp PRCNT         &kp CARET          &kp AMPS  &kp STAR   &kp LPAR  &kp RPAR  &kp RCTRL
-&mt LALT EQUAL  &kp N1    &kp N2   &kp N3     &kp N4    &kp N5            &kp N6             &kp N7    &kp N8     &kp N9    &kp N0    &m_elpipe
-                                   &trans     &trans    &trans            &trans             &trans    &trans
+&kp LGUI        &kp LEFT_BRACE  &m_ldsh  &kp MINUS  &m_rdsh   &m_elmap   &m_insl    &m_leq    &kp EQUAL  &m_req    &kp RIGHT_BRACE  &kp RGUI
+&kp LCTRL       &kp EXCL        &kp AT   &kp HASH   &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp STAR   &kp LPAR  &kp RPAR         &kp RCTRL
+&mt LALT EQUAL  &kp N1          &kp N2   &kp N3     &kp N4    &kp N5     &kp N6     &kp N7    &kp N8     &kp N9    &kp N0           &m_elpipe
+                                         &trans     &trans    &trans     &trans     &trans    &trans
             >;
         };
 
