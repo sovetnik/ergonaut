@@ -67,7 +67,7 @@ layers:
   - (
   - )
   - Ctrl
-  - {t: '=', h: Alt}
+  - Alt
   - '1'
   - '2'
   - '3'
@@ -104,10 +104,10 @@ layers:
   - ↑
   - →
   - PAGE UP
-  - BRI UP
-  - Vol Up
-  - MUTE
-  - Vol Down
+  - ←
+  - ↓
+  - ↑
+  - →
   - '-'
   - Ctrl
   - Alt
@@ -116,10 +116,10 @@ layers:
   - ↓
   - End
   - PAGE DOWN
-  - BRI DN
-  - ⏮️
-  - PLAY PAUSE
-  - ⏭️
+  - Home
+  - PAGE DOWN
+  - PAGE UP
+  - End
   - _
   - Alt
   - {type: held}
@@ -131,14 +131,14 @@ layers:
   adjust:
   - Boot
   - ''
+  - AC DESKTOP SHOW ALL WINDOWS
+  - BRI DN
+  - BRI UP
+  - AC DESKTOP SHOW ALL APPLICATIONS
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - MUTE
+  - VOLUME DOWN
+  - VOLUME UP
   - ''
   - Boot
   - BT CLR
@@ -160,9 +160,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - PLAY PAUSE
+  - ⏮️
+  - ⏭️
   - ''
   - Reset
   - {type: held}
